@@ -9,56 +9,14 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/posts/4a17b156.html</loc>
-    
-    <lastmod>2023-02-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/e3e08109.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/d74d8b76.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/17fd92ae.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/7a46f93c.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/19d2a4e6.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/posts/4b3510a4.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://git.sherry.cool/404.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://git.sherry.cool/categories/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -72,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/census/index.html</loc>
+    <loc>https://git.sherry.cool/archives/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -86,21 +44,7 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/tags/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/archives/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/categories/index.html</loc>
+    <loc>https://git.sherry.cool/census/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -121,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/index.html</loc>
+    <loc>https://git.sherry.cool/tags/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -129,6 +73,13 @@
   
   <url>
     <loc>https://git.sherry.cool/List/movies/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://git.sherry.cool/List/galleries/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -149,13 +100,6 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/%E4%BA%8C%E6%AC%A1%E5%85%83%E9%A3%8E/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://git.sherry.cool/List/galleries/%E4%B9%96%E5%B7%A7%E5%B0%8F%E7%8B%97/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -163,14 +107,7 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/%E5%91%86%E8%90%8C%E7%8C%AB%E5%92%AA/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>https://git.sherry.cool/List/galleries/%E4%BA%8C%E6%AC%A1%E5%85%83%E9%A3%8E/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -191,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/%E7%92%80%E7%92%A8%E6%98%9F%E7%A9%BA/index.html</loc>
+    <loc>https://git.sherry.cool/List/galleries/%E5%91%86%E8%90%8C%E7%8C%AB%E5%92%AA/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -199,6 +136,20 @@
   
   <url>
     <loc>https://git.sherry.cool/List/galleries/%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%89/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://git.sherry.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://git.sherry.cool/List/galleries/%E7%82%AB%E9%85%B7%E8%B7%91%E8%BD%A6/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -219,14 +170,14 @@
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/%E7%82%AB%E9%85%B7%E8%B7%91%E8%BD%A6/index.html</loc>
+    <loc>https://git.sherry.cool/List/galleries/%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://git.sherry.cool/List/galleries/%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>https://git.sherry.cool/List/galleries/%E7%92%80%E7%92%A8%E6%98%9F%E7%A9%BA/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -241,97 +192,6 @@
   </url>
 
   
-  <url>
-    <loc>https://git.sherry.cool/tags/Hexo/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/Github/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/hexo-blog-lucky/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/%E6%B8%B2%E6%9F%93%E7%BB%95%E8%BF%87/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/PicGo/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/GitHub%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/jQuery-CSS3/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/tags/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://git.sherry.cool/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://git.sherry.cool/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
 </urlset>
