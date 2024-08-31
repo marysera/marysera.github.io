@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sherry's waf</title>
+    <title>SHERRY's WAF</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.8;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: #fff;
             color: #333;
         }
         h1 {
@@ -22,39 +22,33 @@
             color: #333;
             border-radius: 8px;
             padding: 20px;
-            overflow-x: auto;
             margin-top: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        pre {
-            margin: 0;
-            padding: 0;
+            overflow-x: auto;
         }
         code {
             display: block;
-            overflow-x: auto;
+            padding: 0;
+            margin: 0;
+            white-space: pre;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
 </head>
 <body>
-    <div class="code-container">
-        <pre><code class="html">
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>在tmp目录里创建一个文件夹</h1>
-    <pre><code>
+<code>
+    下载后立刻更改admin.php里的用户名和密码
+    在tmp目录里创建两个文件夹
+
     sudo mkdir /tmp/waf
-    sudo chmod 777 /tmp/waf
-    </code></pre>
-    <p>将下面一段插入到网站的index.php的最前面</p>
-    <pre><code>
+    sudo mkdir /tmp/waf/log
+    sudo chmod 777 /tmp/waf/*
+
+    定期清理 /tmp/waf 里的文件
+    waf.php不要放在网站
+    将下面代码插入到网站的index.php的最前面
+
 // 获取真实 IP 地址的函数
 function getRealIpAddr() {
     if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
@@ -77,6 +71,9 @@ $whitelistFile = '/tmp/waf/whitelist.txt';
 $accessLogFile = '/tmp/waf/access_log.txt';
 $whitelistedIps = file($whitelistFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
+if (!file_exists($whitelistFile)) {
+    file_put_contents($whitelistFile, '');
+}
 // 检查是否在白名单中
 if (in_array($ip, $whitelistedIps)) {
     // 如果 IP 在白名单中，允许访问
@@ -84,16 +81,14 @@ if (in_array($ip, $whitelistedIps)) {
     $entry = sprintf("%s - %s%s - %s - WHITELISTED\n", $timestamp, $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'], $_SERVER['REQUEST_URI'], $ip);
     file_put_contents($accessLogFile, $entry, FILE_APPEND);
     //echo "Access allowed.";
+
 }
 else{
-    include 'waf.php'; 
+    include '/存放的目录/waf.php'; 
 }
-    </code></pre>
-</body>
-</html>
-        </code></pre>
+
+</code>
     </div>
-    <!-- Highlight.js 脚本 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </body>
